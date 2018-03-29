@@ -1,15 +1,30 @@
 @charset "UTF-8";
 
-body {
-    font-family: 'Roboto', sans-serif;
-    font-size:14px;
-}
-
+// Variables
+@import "components/variables";
 
 // Colors
-@import "components/normalize";
 @import "components/color";
-@import "components/button";
+
+// Normalize
+@import "components/normalize";
+
+// Layouts
+@import "components/layout";
+
+// Components
+@import "components/global";
+
+
+
+
+
+
+
+
+
+//@import "components/color";
+//@import "components/button";
 
 /*
 // Variables;

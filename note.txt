@@ -1,0 +1,9 @@
+Sass Operation
+    watch file : sass --watch input.scss output.css
+    watch dir  : sass --watch app/sass:public/stylesheets
+    
+    
+Ref
+    https://id.pinterest.com/pin/864198615970956693/
+ https://id.pinterest.com/pin/10555380358959969/
++https://id.pinterest.com/pin/859343172622011300/ theme

@@ -1,11 +1,11 @@
 {
-  "name": "workspace",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "Fibocss",
+  "version": "0.1.0",
+  "description": "Fibocss, User Interface CSS Boilerplate based on Fibonacci Sequence (Golden Ratio)",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "sass source/css/main.scss dist/css/main.css"
   },
-  "author": "",
+  "author": "Purwanto",
   "license": "ISC"
 }

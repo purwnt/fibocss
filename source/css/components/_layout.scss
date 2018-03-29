@@ -1,0 +1,193 @@
+////////////////////////////////////////////////////////////////////////////////
+// Layout
+////////////////////////////////////////////////////////////////////////////////
+
+
+// Layout for phones (Mobile First)
+
+.grid-1 {
+  display: grid;
+  grid-template-columns: auto;
+}
+.grid-2 {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.grid-3 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.grid-4 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.grid-5 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+.grid-6 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+}
+.grid-7 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+}
+.grid-8 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+}
+.grid-9 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto;
+}
+.grid-10 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+}
+div {
+    background-color:green;
+}
+
+// Layout for tablet
+@media (min-width:768px) {
+    .grid-m-1 {
+      display: grid;
+      grid-template-columns: auto;
+    }
+    .grid-m-2 {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+    .grid-m-3 {
+      display: grid;
+      grid-template-columns: auto auto auto;
+    }
+    .grid-m-4 {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+    }
+    .grid-m-5 {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto;
+    }
+    .grid-m-6 {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto auto;
+    }
+    .grid-m-7 {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto auto auto;
+    }
+    .grid-m-8 {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto auto auto auto;
+    }
+    .grid-m-9 {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    }
+    .grid-m-10 {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    }
+    div {
+        background-color:purple;
+    }
+}
+
+
+// Layout for laptop
+@media (min-width:992px) {
+    .grid-l-1 {
+      display: grid;
+      grid-template-columns: auto;
+    }
+    .grid-l-2 {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+    .grid-l-3 {
+      display: grid;
+      grid-template-columns: auto auto auto;
+    }
+    .grid-l-4 {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+    }
+    .grid-l-5 {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto;
+    }
+    .grid-l-6 {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto auto;
+    }
+    .grid-l-7 {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto auto auto;
+    }
+    .grid-l-8 {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto auto auto auto;
+    }
+    .grid-l-9 {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    }
+    .grid-l-10 {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    }
+    div {
+        background-color:blue;
+    }
+}
+
+
+// Layout for widescreen
+@media (min-width:1200px) {
+    .grid-x-1 {
+      display: grid;
+      grid-template-columns: auto;
+    }
+    .grid-x-2 {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+    .grid-x-3 {
+      display: grid;
+      grid-template-columns: auto auto auto;
+    }
+    .grid-x-4 {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+    }
+    .grid-x-5 {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto;
+    }
+    .grid-x-6 {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto auto;
+    }
+    .grid-x-7 {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto auto auto;
+    }
+    .grid-x-8 {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto auto auto auto;
+    }
+    .grid-x-9 {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    }
+    .grid-x-10 {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    }
+    div {
+        background-color:yellow;
+    }
+}
