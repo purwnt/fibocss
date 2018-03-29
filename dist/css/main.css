@@ -28972,7 +28972,7 @@ div {
   }
 }
 body {
-  font: 100% Arial, sans-serif;
+  font: 100% "Roboto", sans-serif;
   color: #333;
   font-size: 15px;
 }
@@ -29010,6 +29010,76 @@ h5 {
 h6 {
   font-size: 1rem;
   line-height: 100%;
+}
+
+.button {
+  padding: 13px 28px;
+  border-radius: 3px;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-rounded {
+  padding: 13px 28px;
+  border-radius: 50px;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-big {
+  padding: 23px 45px;
+  border-radius: 3px;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-rounded-big {
+  padding: 23px 45px;
+  border-radius: 50px;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.button.disabled, .button-big.disabled, .button-rounded.disabled, .button-rounded-big.disabled {
+  pointer-events: none;
+  background-color: #DFDFDF !important;
+  box-shadow: none;
+  color: #9F9F9F !important;
+  cursor: default;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.button.disabled:hover, .button-big.disabled:hover, .button-rounded.disabled:hover, .button-rounded-big.disabled:hover {
+  pointer-events: none;
+  background-color: #DFDFDF !important;
+  box-shadow: none;
+  color: #9F9F9F !important;
+  cursor: default;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 /*
