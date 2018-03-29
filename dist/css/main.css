@@ -29034,6 +29034,28 @@ h6 {
   text-decoration: none;
 }
 
+.button-small {
+  padding: 10px 20px;
+  border-radius: 3px;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-rounded-small {
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #fff;
+  text-decoration: none;
+}
+
 .button-big {
   padding: 23px 45px;
   border-radius: 3px;
