@@ -1,0 +1,25 @@
+/*!
+ * CSS v0.1.0 (http://website.com)
+ * Copyright 2017 CSS
+ * MIT License (https://raw.githubusercontent.com/user/css/master/LICENSE)
+ */
+
+html {
+  line-height: 1.5;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 16px;
+}
+
+a{
+  text-decoration: none;
+}
+p{
+  padding:5px 0 5px 0;
+}
+
+
+
+
+ 

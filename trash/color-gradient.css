@@ -1,0 +1,64 @@
+/* Color Gradient */
+.red-red-light {
+    background: #f44336;
+    background: -webkit-linear-gradient(left, #f44336 , #ef9a9a);
+    background: -o-linear-gradient(right, #f44336, #ef9a9a);
+    background: -moz-linear-gradient(right, #f44336, #ef9a9a);
+    background: linear-gradient(to right, #f44336 , #ef9a9a);
+}
+.red-red-dark {
+    background: #f44336;
+    background: -webkit-linear-gradient(left, #f44336 , #c62828);
+    background: -o-linear-gradient(right, #f44336, #c62828);
+    background: -moz-linear-gradient(right, #f44336, #c62828);
+    background: linear-gradient(to right, #f44336 , #c62828);
+}
+.red-pink {
+    background: #f44336;
+    background: -webkit-linear-gradient(left, #f44336 , #e91e63);
+    background: -o-linear-gradient(right, #f44336, #e91e63);
+    background: -moz-linear-gradient(right, #f44336, #e91e63);
+    background: linear-gradient(to right, #f44336 , #e91e63);
+}
+.red-pink-light {
+    background: #f44336;
+    background: -webkit-linear-gradient(left, #f44336 , #f48fb1);
+    background: -o-linear-gradient(right, #f44336, #f48fb1);
+    background: -moz-linear-gradient(right, #f44336, #f48fb1);
+    background: linear-gradient(to right, #f44336 , #f48fb1);
+}
+.red-pink-dark {
+    background: #f44336;
+    background: -webkit-linear-gradient(left, #f44336 , #ad1457);
+    background: -o-linear-gradient(right, #f44336, #ad1457);
+    background: -moz-linear-gradient(right, #f44336, #ad1457);
+    background: linear-gradient(to right, #f44336 , #ad1457);
+}
+.red-purple {
+    background: #f44336;
+    background: -webkit-linear-gradient(left, #f44336 , #9c27b0);
+    background: -o-linear-gradient(right, #f44336, #9c27b0);
+    background: -moz-linear-gradient(right, #f44336, #9c27b0);
+    background: linear-gradient(to right, #f44336 , #9c27b0);
+}
+.red-purple {
+    background: #f44336;
+    background: -webkit-linear-gradient(left, #f44336 , #9c27b0);
+    background: -o-linear-gradient(right, #f44336, #9c27b0);
+    background: -moz-linear-gradient(right, #f44336, #9c27b0);
+    background: linear-gradient(to right, #f44336 , #9c27b0);
+}
+.red-purple-light {
+    background: #f44336;
+    background: -webkit-linear-gradient(left, #f44336 , #ce93d8);
+    background: -o-linear-gradient(right, #f44336, #ce93d8);
+    background: -moz-linear-gradient(right, #f44336, #ce93d8);
+    background: linear-gradient(to right, #f44336 , #ce93d8);
+}
+.red-purple-dark {
+    background: #f44336;
+    background: -webkit-linear-gradient(left, #f44336 , #6a1b9a);
+    background: -o-linear-gradient(right, #f44336, #6a1b9a);
+    background: -moz-linear-gradient(right, #f44336, #6a1b9a);
+    background: linear-gradient(to right, #f44336 , #6a1b9a);
+}

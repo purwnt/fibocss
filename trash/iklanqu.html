@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Iklanqu - Drive, Earn Everywhere</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <link type="text/css" rel="stylesheet" media="screen,projection" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css" />
+        <link type="text/css" rel="stylesheet" media="screen,projection" href="./iklanqu.css" />
+        <link type="text/css" rel="stylesheet" media="screen,projection" href="./utility.css" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+        <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+        <script src="https://use.fontawesome.com/1997ad82f6.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+        <script type="text/javascript">
+            $( document ).ready(function(){
+                $(".button-collapse").sideNav();
+                
+                $('a[href^="#"]').on('click',function (e) {
+            	    e.preventDefault();
+                    
+            	    var target = this.hash;
+            	    var $target = $(target);
+            
+            	    $('html, body').stop().animate({
+            	        'scrollTop': $target.offset().top
+            	    }, 1100, 'swing', function () {
+            	        window.location.hash = target;
+            	    });
+            	});
+            	
+            	$('.carousel.carousel-slider').carousel({fullWidth: true});
+            	
+            });
+        </script>
+    </head>
+    <body class="grey lighten-2">
+        <div style="max-width:1460px;margin:0 auto;margin-top:0;" class="white ">
+           
+              <nav class="white black-text" style="z-index:100">
+                <div class="nav-wrapper">
+                  <a href="#!" class="brand-logo"><img src="./images/iklanqu-logo.svg" class="header-logo"/></a>
+                  <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons black-text">menu</i></a>
+                  <ul class="right hide-on-med-and-down">
+                        <li><a href="#about" class="black-text">Tentang</a></li>
+                        <li><a href="#how-it-work" class="black-text">Cara Kerja</a></li>
+                        <li><a href="#feature" class="black-text">Fitur</a></li>
+                        <li><a href="#download" class="black-text">Download</a></li>
+                        <span style="cursor: pointer;margin:0 5px 0 15px;font-size:14px;" class="button-driver hoverable">Driver</span>
+                        <span style="cursor: pointer;margin:0 15px 0 7px;font-size:14px;" class="button-advertiser hoverable">Advertiser</span>
+                  </ul>
+                  <ul class="side-nav" id="mobile-demo">
+                    <div class="header-mobile">
+                        <img src="./images/iklanqu-logo.svg" class="header-logo"/>
+                    </div>
+                    <div style="padding:0 0 0 6px;margin-bottom:30px;">
+                        <span style="cursor: pointer;margin:0 5px 0 15px;font-size:14px;width:100%" class="button-driver hoverable">Driver</span>
+                        <span style="cursor: pointer;margin:0 15px 0 7px;font-size:14px;" class="button-advertiser hoverable">Advertiser</span>
+                    </div>
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#how-it-work">Cara Kerja</a></li>
+                    <li><a href="#feature">Fitur</a></li>
+                    <li><a href="#downlaod">Download</a></li>
+                  </ul>
+                </div>
+                
+            </nav>
+            
+            
+            <div id="main-wall">
+                <h2>Penghasilan Tambahan<br/>Saat Anda Mengemudikan<br/>Kendaraan Anda</h2>
+                <p>Dengan mengemudikan kendaraan Anda yang telah dibekali iklan dengan jarak tertentu.</p><br/><br/>
+                <a href="#" class="hoverable">Daftar Driver</a>
+            </div>
+            
+            
+            <div id="about">
+                <div class="row">
+                    <div class="col s12 m6 l6 about-top-left">
+                        <h3>Solusi iklan efektif<br/>
+menjangkau banyak orang.</h3>
+                        <p>Iklankan brand pilihan dengan biaya yang murah, muncul di banyak lokasi, cepat masuk ke pasar dan dapat diukur secara detail.</p>
+                    </div>
+                    <div class="col s12 m6 l6 about-top-right">
+                        
+                    </div>
+                </div>
+                <div class="row" style="margin-top:-20px">
+                    <div class="col s12 m6 l6 about-bottom-left">
+                        
+                    </div>
+                    <div class="col s12 m6 l6 about-bottom-right">
+                        <h3>Berbagai pilihan iklan<br/>untuk berbagai kendaraan.</h3>
+                        <p>Platform iklan yang fleksibel dan efektif. Tersedia berbagai banyak ukuran iklan untuk berbegai tipe kendaraan baik mobil maupun sepeda motor.</p>
+                    </div>
+                </div>
+            </div>
+            
+
+            
+            <div class="how-it-work" id="how-it-work">
+                <div style="padding:40px 0 0 0;" class="white">
+                    <h3>Cara Kerja Iklanqu</h3>
+                    <div class="row">
+                        <div class="col s12 m6 l6 how-it-work-image">
+                            
+                        </div>
+                        <div class="col s12 m6 l6 how-it-work-content">
+                            <div class="how-it-work-1">
+                                <h4>1. Download Aplikasi Iklanqu</h4>
+                                <p>Download dan instal aplikasi Iklanqu di Smartphone Anda. Daftar akun dengan data diri Anda, dan siap untuk menerima iklan dari Advertiser.</p>
+                            </div>
+                            <div class="how-it-work-2">
+                                <h4>2. Berkendara Dengan Iklan</h4>
+                                <p>Dapatkan iklan yang sudah kami tawarkan. Segerapa pasang iklan dan mulai berkendara dengan rute dan jarak tempuh yang akan kami hitung sebagai penghasilan Anda.</p>
+                            </div>
+                            <div class="how-it-work-3">
+                                <h4>3. Dapatkan Penghasilan</h4>
+                                <p>Dapatkan penghasilan dari iklan yang telah anda kampanyekan di berbagai rute dan lokasi.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div id="feature" style="margin-top:-20px;">
+                <div class="iklanqu-feature">
+                    
+                    <h3>Kelebihan Iklanqu</h3>
+                    <div class="row iklanqu-feature-content">
+                        <div class="col s6 m6 l3">
+                            <img style="height:100px;" src="https://www.gstatic.com/images/branding/product/2x/maps_48dp.png"/>
+                            <p class="bolder">Iklan Bervariasi</p>
+                            <p>Tersedia iklan yang bervariasi untuk berbagai tipe kendaraan baik mobil maupun sepeda motor.</p>
+                        </div>
+                        <div class="col s6 m6 l3">
+                            <img style="height:100px;" src="https://www.gstatic.com/images/branding/product/2x/maps_48dp.png"/>
+                            <p class="bolder">Laporan Detail</p>
+                            <p>Laporan yang detail tentang rute dan waktu kampanye yang sedang dilakukan oleh driver.</p>
+                        </div>
+                        <div class="col s6 m6 l3">
+                            <img style="height:100px;" src="https://www.gstatic.com/images/branding/product/2x/maps_48dp.png"/>
+                            <p class="bolder">Mudah & Cepat</p>
+                            <p>Sangat mudah untuk mendaftar menjadi pengemudi di Iklanqu, download aplikasi dan tunggu kami memberikan iklan.</p>
+                        </div>
+                        <div class="col s6 m6 l3">
+                            <img style="height:100px;" src="https://www.gstatic.com/images/branding/product/2x/maps_48dp.png"/>
+                            <p class="bolder">Tanpa Kontrak</p>
+                            <p>Bebas mengemudi dengan iklan untuk waktu tertentu, tanpa terikat kontrak yang panjang dan riber.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        
+        <!--
+        <div style="padding:100px 100px 130px 100px;
+    font-weight: 200;
+    letter-spacing: 0;background-image: url(https://d1a3f4spazzrp4.cloudfront.net/chameleon-assets/v1.0.0/76830279-22dd-4a34-8150-004f75a3afd9/desk.jpg);">
+            <div class="row">
+                <div class="col s12 m6 l6">
+                    <h3 style="color: #fff;
+            font-weight: 200;
+            font-size: 32px;">Our phones and our service were made for each other.</h3>
+                    <p style="color:#fff;letter-spacing:0.5px;font-size:16px;">Helping with us is flexible and rewarding, helping 
+                    drivers meet their career and financial goals.<br/><br/></p>
+                    <span style="cursor: pointer;font-size:14px;padding:15px 50px 17px 50px;letter-spacing:0.5px;" class="button-driver hoverable">Daftar Driver</span>
+                </div>
+                <div class="col s12 m6 l6">
+                    
+                </div>
+            </div>
+        </div>
+        -->
+        
+        <div class="grey lighten-3 drivers-header" id="drivers">
+            <h3>Meet our Driver</h3>
+        </div>
+        
+        <div class="row grey lighten-3 drivers-content">
+                      <div class="col s12 m4 l4" style="padding:10px">
+                        <div class="white">
+                              <div style="height:280px;background-image:url(https://d1a3f4spazzrp4.cloudfront.net/chameleon-assets/v1.0.0/8e1f056b-bbe8-4910-b477-9ebe9c1356e6/desk.jpg);background-size:cover;background-position:center">
+                                  
+                              </div>
+                              <div style="padding:20px 40px 40px 40px;text-align:left;" class="black-text">
+                                  <p style="font-weight:300;">"No two people use their phones the same way. So we've created one plan that's flexible: Only pay for the data you use, get credited for the rest. No contracts, commitments, or penalties"</p>
+                                  <span>Brandon, Coach and Chicago partner</span>
+                              </div>
+                        </div>
+                      </div>
+                      <div class="col s12 m4 l4" style="padding:10px">
+                        <div class="white">
+                              <div style="height:280px;background-image:url(https://d1a3f4spazzrp4.cloudfront.net/chameleon-assets/v1.0.0/8e1f056b-bbe8-4910-b477-9ebe9c1356e6/desk.jpg);background-size:cover;background-position:center">
+                                  
+                              </div>
+                              <div style="padding:20px 40px 40px 40px;text-align:left;" class="black-text">
+                                  <p style="font-weight:300;">"No two people use their phones the same way. So we've created one plan that's flexible: Only pay for the data you use, get credited for the rest. No contracts, commitments, or penalties"</p>
+                                  <span>Brandon, Coach and Chicago partner</span>
+                              </div>
+                        </div>
+                      </div>
+                      <div class="col s12 m4 l4" style="padding:10px 0 10px 10px">
+                        <div class="white">
+                              <div style="height:280px;background-image:url(https://d1a3f4spazzrp4.cloudfront.net/chameleon-assets/v1.0.0/8e1f056b-bbe8-4910-b477-9ebe9c1356e6/desk.jpg);background-size:cover;background-position:center">
+                                  
+                              </div>
+                              <div style="padding:20px 40px 40px 40px;text-align:left;" class="black-text">
+                                  <p style="font-weight:300;">"No two people use their phones the same way. So we've created one plan that's flexible: Only pay for the data you use, get credited for the rest. No contracts, commitments, or penalties"</p>
+                                  <span>Brandon, Coach and Chicago partner</span>
+                              </div>
+                        </div>
+                      </div>
+                  </div>
+          
+          
+         <!-- Footer -->
+        <div class="footer">
+            <div class="footer-image">
+                
+            </div>
+            <div class="black white-text footer-content">
+                <div class="row footer-menu">
+                    <div class="col s12 m4 l4 footer-menu-a">
+                             
+                            <span style="font-weight:500">PT Iklanqu Solusi Iklan</span><br/>
+                            <span style="font-weight:300">Sudirman Tower, 7th Floor<br/>Jl. Jend. Gatot Subroto Kav 21, Karet Semanggi<br/>Jakarta 12930, Indonesia</span>
+                              
+                            
+                            <p class="footer-menu-paragraph footer-social-media-button">
+                                <a href="#"><i class="fa fa-facebook-square fa-2x white-text" aria-hidden="true"></i></a>&nbsp;&nbsp;
+                                <a href="#"><i class="fa fa-twitter fa-2x white-text" aria-hidden="true"></i></a>&nbsp;&nbsp;
+                                <a href="#"><i class="fa fa-linkedin-square fa-2x white-text" aria-hidden="true"></i></a>&nbsp;&nbsp;
+                                <a href="#"><i class="fa fa-instagram fa-2x white-text" aria-hidden="true"></i></a>&nbsp;&nbsp;
+                            </p>
+                            <div class="change-language-top">
+                                <a class='footer-menu-wrapper dropdown-button white-text' href='#' data-activates='dropdown1'><i class="fa fa-globe" aria-hidden="true"></i>&nbsp;Indonesian&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-down white-text" aria-hidden="true"></i></a>
+                                
+                               
+                                <ul id='dropdown1' class='dropdown-content'>
+                                    <li><a href="#!" class="black-text">Indonesian</a></li>
+                                    <li><a href="#!" class="black-text">English</a></li>
+                                </ul>
+                            </div>
+                    </div>
+                    <div class="col s6 m4 l4 footer-menu-b">
+                        <div class="footer-menu-wrapper">
+                            <p class="footer-menu-paragraph">
+                                <a href="#" class="white-text">Tentang</a><br/>
+                                <a href="#" class="white-text">Cara Kerja</a><br/>
+                                <a href="#" class="white-text">Fitur</a><br/>
+                                <a href="#" class="white-text">Download</a><br/>
+                                <a href="#" class="white-text">Bantuan</a><br/>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col s6 m4 l4 footer-menu-c">
+                        <div class="footer-menu-wrapper">
+                            <p class="footer-menu-paragraph">
+                                <a href="#" class="white-text">Karir</a><br/>
+                                <a href="#" class="white-text">Hubungi Kami</a><br/>
+                                <a href="#" class="white-text">Media</a><br/>
+                                <a href="#" class="white-text">Kebijakan Privasi</a><br/>
+                                <a href="#" class="white-text">Syarat &amp; Ketentuan</a><br/>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col s12 m5 l3 footer-bottom-b-mobile"> 
+                        <div class="row"> 
+                            <div class="col s6 m6 l6" style="padding:0;">
+                                <img src="./images/playstore.png" style="height:35px;padding:0 0 0 0;"/>
+                            </div>
+                            <div class="col s6 m6 l6" style="padding:0;"> 
+                                <img src="./images/appstore.png" style="height:35px;padding:0 0 0 0;"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row footer-bottom">
+                    <div class="col s12 m4 l4 footer-bottom-a">
+                        <span class="footer-copyrights">&copy; Copyrights 2017 Iklanqu.</span>
+                    </div>
+                    <div class="col s12 m4 l3 footer-bottom-b"> 
+                        <div class="row"> 
+                            <div class="col s6 m6 l6" style="padding:0;">
+                                <img src="./images/playstore.png" class="footer-bottom-playstore"/>
+                            </div>
+                            <div class="col s6 m6 l6" style="padding:0;"> 
+                                <img src="./images/appstore.png" class="footer-bottom-appstore"/>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col s0 m0 l1">
+                        
+                    </div>
+                    <div class="col s12 m4 l4 change-language-bottom">
+                        <a class='footer-menu-wrapper dropdown-button white-text' href='#' data-activates='dropdown1'><i class="fa fa-globe" aria-hidden="true"></i>&nbsp;Indonesian&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-down white-text" aria-hidden="true"></i></a>
+                            
+                           
+                            <ul id='dropdown1' class='dropdown-content'>
+                                <li><a href="#!" class="black-text">Indonesian</a></li>
+                                <li><a href="#!" class="black-text">English</a></li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ Footer -->
+        
+        </div>
+        
+    </body>
+</html>

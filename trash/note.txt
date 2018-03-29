@@ -1,0 +1,41 @@
+Data mining: Pencarian pengetahuan dari data. Mengekstrak secara otomatis pola atau pengetahuan yang menarik dari data dalam jumlah besar.
+
+Keuntungan Datamining: 
+- Perusahaan fokus ke informasi yang berharga di  database
+- Meramalkan masa depan, perusahaan dapat mempersiapkan diri
+
+Contoh aplikasi: 
+- Bank me-mining transaksi customer untuk mengidentifikasi customer yang kemungkinan besar tertarik terhadap produk baru
+- Perusahaan transportasi me-mining data customer untuk mengelompokan customer yang memiliki nilai tinggi yang perlu diprioritaskan
+
+Proses datamining:
+- Database > Pembersihan data > Data warehouse > Task relevant data > Data Mining > Patern Evaluation > Knowledge
+
+
+Metode Seleksi :
+- Sampling,  seleksi subset representatif dari populasi data yang besar.
+- Denoising,  proses menghilangkan noise dari data yang akan ditransformasikan
+- Feature extraction,  proses membuka spesifikasi data yang signifikan dalam konteks tertentu.
+
+Metode Transformasi :
+- Centering, mengurangi setiap data dengan rata-rata dari setiap atribut yang ada.
+- Normalisation, membagi setiap data yang dicentering dengan standar deviasi dari atribut bersangkutan.
+- Scaling, mengubah data sehingga berada dalam skala tertentu.
+
+4 Fungsi umum yang diterapkan Datamining :
+- Assosiation, adalah proses untuk menemukan aturan assosiatif antarasuatu kombinasi item dalam suatu waktu
+- Secuence, hampir sama dengan association bedanya seccuencediterapkan lebih dari satu periode.
+- Clastering, adalah proses pengelompokan sejumlah data/obyek kedalam kelompok-kelompok data (klaster) sehingga setiap klaster akanberisi data yang saling mirip.
+- Classification, adalah proses penemuan model atau fungsi yangmenjelaskan atau membedakan konsep atau kelas data, dengan tujuanuntuk dapat memperkirakan kelas dari suatu objek yang labelnya tidakdiketahui.
+
+Metodologi Datamining :
+- Regresi, Adalah fungsi pembelajaran yang memetakan sebuah unsure data ke sebuah variable prediksi bernilai nyata.
+- Jaringan syaraf tiruan, Adalah jaringan dari sekelompok unit pemroses kecil yang dimodelkan berdasarkan jaringan saraf manusia. JST merupakan sistem adaptif yang dapat merubah strukturnya untuk memecahkan masalah berdasarkan informasi eksternal maupun internal yang mengalir melalui jaringan tersebut.
+- Pohon keputusan,  adalah digunakan untuk memodelkan persoalan yang terdiri dari serangkaian keputusan yang mengarah ke solusi. Tiap simpul dalam menyatakan keputusan, sedangkan daun menyatakan solusi.
+- Algoritma genetika, adalah teknik pencarian yang di dalam ilmu komputer untuk menemukan penyelesaian perkiraan untuk optimisasi dan masalah pencarian. Atau juga dapat disebut kelas khusus dari algoritma evolusioner dengan menggunakan teknik yang terinspirasi oleh biologi evolusioner seperti warisan, mutasi, seleksi alam dan rekombinasi (atau crossover)
+
+Istilah2 Datawarehouse :
+- Datamart, adalah Data warehouse yang mendukung kebutuhan pada tingkat departemen atau fungsi bisinis tertentu dalam perusahaan.
+- OLAP, adalah sebuah pendekatan secara cepat menyediakan jawaban-jawaban terhadap kueri analitik yang multidimensi di dalam alam. OLAP adalah bagian dari kategori yang lebih global dari pemikiran bisnis, yang juga merangkum hubungan antara pelaporan dan penggalian data.
+- Dimention Table, adalah satu kumpulan tabel teman untuk meja fakta.
+- Fact Table, adalah tabel yang berisi pengukuran tentang meter atau fakta cara bisnis . itu sering ditempatkan pada memusat skema bintang dan dikelilingi oleh tabel ukuran

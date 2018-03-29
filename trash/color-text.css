@@ -1,0 +1,66 @@
+.red-text {
+    color: #f44336 !important;
+}
+.pink-text {
+    color: #e91e63 !important;
+}
+.purple-text {
+    color: #9c27b0 !important;
+}
+.deeppurple-text {
+    color: #673ab7 !important;
+}
+.indigo-text {
+    color: #3f51b5 !important; 
+}
+.blue-text {
+    color: #2196f3 !important;
+}
+.lightblue-text {
+    color: #03a9f4 !important;
+}
+.cyan-text {
+    color: #00bcd4 !important;
+}
+.teal-text {
+    color: #009688 !important;
+}
+.green-text {
+    color: #4caf50 !important;
+}
+.lightgreen-text {
+    color: #8bc34a !important;
+}
+.lime-text {
+    color: #cddc39 !important;
+}
+.yellow-text {
+    color: #ffeb3b !important;
+}
+.amber-text {
+    color: #ffc107 !important;
+}
+.orange-text {
+    color: #ff9800 !important;
+}
+.deeporange-text {
+    color: #ff5722 !important;
+}
+.brown-text {
+    color: #795548 !important;
+}
+.grey-text {
+    color: #9e9e9e !important;
+}
+.bluegrey-text {
+    color: #607d8b !important;
+}
+.white-text {
+    color: #ffffff !important;
+}
+.black-text {
+    color: #000000 !important;
+}
+.transparent-text {
+  color: transparent !important;
+}
