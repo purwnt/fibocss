@@ -8,21 +8,21 @@
 .button {
     padding: 13px 28px;
     border-radius: 3px;
-    font-weight: 500;
+    font-weight: $button-font-weight;
     cursor: pointer;
     font-size: 12px;
     letter-spacing: 1px;
-    color: #fff;
+    color: $button-color;
     text-decoration:none;
 }
 .button-rounded {
     padding: 13px 28px;
     border-radius: 50px;
-    font-weight: 500;
+    font-weight: $button-font-weight;
     cursor: pointer;
     font-size: 12px;
     letter-spacing: 1px;
-    color: #fff;
+    color: $button-color;
     text-decoration:none;
 }
 
@@ -30,42 +30,42 @@
 .button-small {
     padding: 10px 20px;
     border-radius: 3px;
-    font-weight: 500;
+    font-weight: $button-font-weight;
     cursor: pointer;
     font-size: 10px;
     letter-spacing: 1px;
-    color: #fff;
+    color: $button-color;
     text-decoration:none;
 }
 .button-rounded-small {
     padding: 10px 20px;
     border-radius: 50px;
-    font-weight: 500;
+    font-weight: $button-font-weight;
     cursor: pointer;
     font-size: 10px;
     letter-spacing: 1px;
-    color: #fff;
+    color: $button-color;
     text-decoration:none;
 }
 
 .button-big {
-    padding: 23px 45px;
+    padding: 22px 44px;
     border-radius: 3px;
-    font-weight: 500;
+    font-weight: $button-font-weight;
     cursor: pointer;
     font-size: 15px;
     letter-spacing: 1px;
-    color: #fff;
+    color: $button-color;
     text-decoration:none;
 }
 .button-rounded-big {
-    padding: 23px 45px;
+    padding: 22px 44px;
     border-radius: 50px;
-    font-weight: 500;
+    font-weight: $button-font-weight;
     cursor: pointer;
     font-size: 15px;
     letter-spacing: 1px;
-    color: #fff;
+    color: $button-color;
     text-decoration:none;
 }
 

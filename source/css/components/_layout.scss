@@ -4,190 +4,221 @@
 
 
 // Layout for phones (Mobile First)
-
-.grid-1 {
-  display: grid;
-  grid-template-columns: auto;
+.con {
+  max-width: 1180px;
+  margin:0 auto;
 }
-.grid-2 {
-  display: grid;
-  grid-template-columns: auto auto;
+.fcon {
+  width: 100%;
 }
-.grid-3 {
-  display: grid;
-  grid-template-columns: auto auto auto;
+.r:after {
+  content: "";
+  display: table;
+  clear: both;
 }
-.grid-4 {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
+.s1 {
+  width: (100% / 12 * 1);
+  float:left;
 }
-.grid-5 {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto;
+.s2 {
+  width: (100% / 12 * 2);
+  float:left;
 }
-.grid-6 {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
+.s3 {
+  width: (100% / 12 * 3);
+  float:left;
 }
-.grid-7 {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto;
+.s4 {
+  width: (100% / 12 * 4);
+  float:left;
 }
-.grid-8 {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto auto;
+.s5 {
+  width: (100% / 12 * 5);
+  float:left;
 }
-.grid-9 {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto auto auto;
+.s6 {
+  width: (100% / 12 * 6);
+  float:left;
 }
-.grid-10 {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+.s7 {
+  width: (100% / 12 * 7);
+  float:left;
 }
-div {
-    background-color:green;
+.s8 {
+  width: (100% / 12 * 8);
+  float:left;
+}
+.s9 {
+  width: (100% / 12 * 9);
+  float:left;
+}
+.s10 {
+  width: (100% / 12 * 10);
+  float:left;
+}
+.s11 {
+  width: (100% / 12 * 11);
+  float:left;
+}
+.s12 {
+  width: (100% / 12 * 12);
+  float:left;
 }
 
 // Layout for tablet
-@media (min-width:768px) {
-    .grid-m-1 {
-      display: grid;
-      grid-template-columns: auto;
+@media (min-width: 768px) {
+    .m1 {
+      width: (100% / 12 * 1);
+      float:left;
     }
-    .grid-m-2 {
-      display: grid;
-      grid-template-columns: auto auto;
+    .m2 {
+      width: (100% / 12 * 2);
+      float:left;
     }
-    .grid-m-3 {
-      display: grid;
-      grid-template-columns: auto auto auto;
+    .m3 {
+      width: (100% / 12 * 3);
+      float:left;
     }
-    .grid-m-4 {
-      display: grid;
-      grid-template-columns: auto auto auto auto;
+    .m4 {
+      width: (100% / 12 * 4);
+      float:left;
     }
-    .grid-m-5 {
-      display: grid;
-      grid-template-columns: auto auto auto auto auto;
+    .m5 {
+      width: (100% / 12 * 5);
+      float:left;
     }
-    .grid-m-6 {
-      display: grid;
-      grid-template-columns: auto auto auto auto auto auto;
+    .m6 {
+      width: (100% / 12 * 6);
+      float:left;
     }
-    .grid-m-7 {
-      display: grid;
-      grid-template-columns: auto auto auto auto auto auto auto;
+    .m7 {
+      width: (100% / 12 * 7);
+      float:left;
     }
-    .grid-m-8 {
-      display: grid;
-      grid-template-columns: auto auto auto auto auto auto auto auto;
+    .m8 {
+      width: (100% / 12 * 8);
+      float:left;
     }
-    .grid-m-9 {
-      display: grid;
-      grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    .m9 {
+      width: (100% / 12 * 9);
+      float:left;
     }
-    .grid-m-10 {
-      display: grid;
-      grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    .m10 {
+      width: (100% / 12 * 10);
+      float:left;
     }
-    div {
-        background-color:purple;
+    .m11 {
+      width: (100% / 12 * 11);
+      float:left;
+    }
+    .m12 {
+      width: (100% / 12 * 12);
+      float:left;
     }
 }
 
 
 // Layout for laptop
 @media (min-width:992px) {
-    .grid-l-1 {
-      display: grid;
-      grid-template-columns: auto;
+    .l1 {
+      width: (100% / 12 * 1);
+      float:left;
     }
-    .grid-l-2 {
-      display: grid;
-      grid-template-columns: auto auto;
+    .l2 {
+      width: (100% / 12 * 2);
+      float:left;
     }
-    .grid-l-3 {
-      display: grid;
-      grid-template-columns: auto auto auto;
+    .l3 {
+      width: (100% / 12 * 3);
+      float:left;
     }
-    .grid-l-4 {
-      display: grid;
-      grid-template-columns: auto auto auto auto;
+    .l4 {
+      width: (100% / 12 * 4);
+      float:left;
     }
-    .grid-l-5 {
-      display: grid;
-      grid-template-columns: auto auto auto auto auto;
+    .l5 {
+      width: (100% / 12 * 5);
+      float:left;
     }
-    .grid-l-6 {
-      display: grid;
-      grid-template-columns: auto auto auto auto auto auto;
+    .l6 {
+      width: (100% / 12 * 6);
+      float:left;
     }
-    .grid-l-7 {
-      display: grid;
-      grid-template-columns: auto auto auto auto auto auto auto;
+    .l7 {
+      width: (100% / 12 * 7);
+      float:left;
     }
-    .grid-l-8 {
-      display: grid;
-      grid-template-columns: auto auto auto auto auto auto auto auto;
+    .l8 {
+      width: (100% / 12 * 8);
+      float:left;
     }
-    .grid-l-9 {
-      display: grid;
-      grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    .l9 {
+      width: (100% / 12 * 9);
+      float:left;
     }
-    .grid-l-10 {
-      display: grid;
-      grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    .l10 {
+      width: (100% / 12 * 10);
+      float:left;
     }
-    div {
-        background-color:blue;
+    .l11 {
+      width: (100% / 12 * 11);
+      float:left;
+    }
+    .l12 {
+      width: (100% / 12 * 12);
+      float:left;
     }
 }
 
 
 // Layout for widescreen
 @media (min-width:1200px) {
-    .grid-x-1 {
-      display: grid;
-      grid-template-columns: auto;
+    .x1 {
+      width: (100% / 12 * 1);
+      float:left;
     }
-    .grid-x-2 {
-      display: grid;
-      grid-template-columns: auto auto;
+    .x2 {
+      width: (100% / 12 * 2);
+      float:left;
     }
-    .grid-x-3 {
-      display: grid;
-      grid-template-columns: auto auto auto;
+    .x3 {
+      width: (100% / 12 * 3);
+      float:left;
     }
-    .grid-x-4 {
-      display: grid;
-      grid-template-columns: auto auto auto auto;
+    .x4 {
+      width: (100% / 12 * 4);
+      float:left;
     }
-    .grid-x-5 {
-      display: grid;
-      grid-template-columns: auto auto auto auto auto;
+    .x5 {
+      width: (100% / 12 * 5);
+      float:left;
     }
-    .grid-x-6 {
-      display: grid;
-      grid-template-columns: auto auto auto auto auto auto;
+    .x6 {
+      width: (100% / 12 * 6);
+      float:left;
     }
-    .grid-x-7 {
-      display: grid;
-      grid-template-columns: auto auto auto auto auto auto auto;
+    .x7 {
+      width: (100% / 12 * 7);
+      float:left;
     }
-    .grid-x-8 {
-      display: grid;
-      grid-template-columns: auto auto auto auto auto auto auto auto;
+    .x8 {
+      width: (100% / 12 * 8);
+      float:left;
     }
-    .grid-x-9 {
-      display: grid;
-      grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    .x9 {
+      width: (100% / 12 * 9);
+      float:left;
     }
-    .grid-x-10 {
-      display: grid;
-      grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    .x10 {
+      width: (100% / 12 * 10);
+      float:left;
     }
-    div {
-        background-color:yellow;
+    .x11 {
+      width: (100% / 12 * 11);
+      float:left;
+    }
+    .x12 {
+      width: (100% / 12 * 12);
+      float:left;
     }
 }

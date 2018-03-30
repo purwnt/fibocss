@@ -28752,223 +28752,262 @@ template {
   display: none;
 }
 
-.grid-1 {
-  display: grid;
-  grid-template-columns: auto;
+.con {
+  max-width: 1180px;
+  margin: 0 auto;
 }
 
-.grid-2 {
-  display: grid;
-  grid-template-columns: auto auto;
+.fcon {
+  width: 100%;
 }
 
-.grid-3 {
-  display: grid;
-  grid-template-columns: auto auto auto;
+.r:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.grid-4 {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
+.s1 {
+  width: 8.3333333333%;
+  float: left;
 }
 
-.grid-5 {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto;
+.s2 {
+  width: 16.6666666667%;
+  float: left;
 }
 
-.grid-6 {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
+.s3 {
+  width: 25%;
+  float: left;
 }
 
-.grid-7 {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto;
+.s4 {
+  width: 33.3333333333%;
+  float: left;
 }
 
-.grid-8 {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto auto;
+.s5 {
+  width: 41.6666666667%;
+  float: left;
 }
 
-.grid-9 {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto auto auto;
+.s6 {
+  width: 50%;
+  float: left;
 }
 
-.grid-10 {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+.s7 {
+  width: 58.3333333333%;
+  float: left;
 }
 
-div {
-  background-color: green;
+.s8 {
+  width: 66.6666666667%;
+  float: left;
+}
+
+.s9 {
+  width: 75%;
+  float: left;
+}
+
+.s10 {
+  width: 83.3333333333%;
+  float: left;
+}
+
+.s11 {
+  width: 91.6666666667%;
+  float: left;
+}
+
+.s12 {
+  width: 100%;
+  float: left;
 }
 
 @media (min-width: 768px) {
-  .grid-m-1 {
-    display: grid;
-    grid-template-columns: auto;
+  .m1 {
+    width: 8.3333333333%;
+    float: left;
   }
 
-  .grid-m-2 {
-    display: grid;
-    grid-template-columns: auto auto;
+  .m2 {
+    width: 16.6666666667%;
+    float: left;
   }
 
-  .grid-m-3 {
-    display: grid;
-    grid-template-columns: auto auto auto;
+  .m3 {
+    width: 25%;
+    float: left;
   }
 
-  .grid-m-4 {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+  .m4 {
+    width: 33.3333333333%;
+    float: left;
   }
 
-  .grid-m-5 {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
+  .m5 {
+    width: 41.6666666667%;
+    float: left;
   }
 
-  .grid-m-6 {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
+  .m6 {
+    width: 50%;
+    float: left;
   }
 
-  .grid-m-7 {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto;
+  .m7 {
+    width: 58.3333333333%;
+    float: left;
   }
 
-  .grid-m-8 {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto;
+  .m8 {
+    width: 66.6666666667%;
+    float: left;
   }
 
-  .grid-m-9 {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+  .m9 {
+    width: 75%;
+    float: left;
   }
 
-  .grid-m-10 {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+  .m10 {
+    width: 83.3333333333%;
+    float: left;
   }
 
-  div {
-    background-color: purple;
+  .m11 {
+    width: 91.6666666667%;
+    float: left;
+  }
+
+  .m12 {
+    width: 100%;
+    float: left;
   }
 }
 @media (min-width: 992px) {
-  .grid-l-1 {
-    display: grid;
-    grid-template-columns: auto;
+  .l1 {
+    width: 8.3333333333%;
+    float: left;
   }
 
-  .grid-l-2 {
-    display: grid;
-    grid-template-columns: auto auto;
+  .l2 {
+    width: 16.6666666667%;
+    float: left;
   }
 
-  .grid-l-3 {
-    display: grid;
-    grid-template-columns: auto auto auto;
+  .l3 {
+    width: 25%;
+    float: left;
   }
 
-  .grid-l-4 {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+  .l4 {
+    width: 33.3333333333%;
+    float: left;
   }
 
-  .grid-l-5 {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
+  .l5 {
+    width: 41.6666666667%;
+    float: left;
   }
 
-  .grid-l-6 {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
+  .l6 {
+    width: 50%;
+    float: left;
   }
 
-  .grid-l-7 {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto;
+  .l7 {
+    width: 58.3333333333%;
+    float: left;
   }
 
-  .grid-l-8 {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto;
+  .l8 {
+    width: 66.6666666667%;
+    float: left;
   }
 
-  .grid-l-9 {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+  .l9 {
+    width: 75%;
+    float: left;
   }
 
-  .grid-l-10 {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+  .l10 {
+    width: 83.3333333333%;
+    float: left;
   }
 
-  div {
-    background-color: blue;
+  .l11 {
+    width: 91.6666666667%;
+    float: left;
+  }
+
+  .l12 {
+    width: 100%;
+    float: left;
   }
 }
 @media (min-width: 1200px) {
-  .grid-x-1 {
-    display: grid;
-    grid-template-columns: auto;
+  .x1 {
+    width: 8.3333333333%;
+    float: left;
   }
 
-  .grid-x-2 {
-    display: grid;
-    grid-template-columns: auto auto;
+  .x2 {
+    width: 16.6666666667%;
+    float: left;
   }
 
-  .grid-x-3 {
-    display: grid;
-    grid-template-columns: auto auto auto;
+  .x3 {
+    width: 25%;
+    float: left;
   }
 
-  .grid-x-4 {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+  .x4 {
+    width: 33.3333333333%;
+    float: left;
   }
 
-  .grid-x-5 {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
+  .x5 {
+    width: 41.6666666667%;
+    float: left;
   }
 
-  .grid-x-6 {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
+  .x6 {
+    width: 50%;
+    float: left;
   }
 
-  .grid-x-7 {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto;
+  .x7 {
+    width: 58.3333333333%;
+    float: left;
   }
 
-  .grid-x-8 {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto;
+  .x8 {
+    width: 66.6666666667%;
+    float: left;
   }
 
-  .grid-x-9 {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+  .x9 {
+    width: 75%;
+    float: left;
   }
 
-  .grid-x-10 {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+  .x10 {
+    width: 83.3333333333%;
+    float: left;
   }
 
-  div {
-    background-color: yellow;
+  .x11 {
+    width: 91.6666666667%;
+    float: left;
+  }
+
+  .x12 {
+    width: 100%;
+    float: left;
   }
 }
 body {
@@ -28984,32 +29023,38 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 3.5rem;
-  line-height: 100%;
+  line-height: 120%;
+  margin: 26px 0;
 }
 
 h2 {
   font-size: 3rem;
-  line-height: 100%;
+  line-height: 120%;
+  margin: 24px 0;
 }
 
 h3 {
   font-size: 2.5rem;
-  line-height: 100%;
+  line-height: 120%;
+  margin: 22px 0;
 }
 
 h4 {
   font-size: 2rem;
-  line-height: 100%;
+  line-height: 120%;
+  margin: 20px 0;
 }
 
 h5 {
   font-size: 1.5rem;
-  line-height: 100%;
+  line-height: 120%;
+  margin: 18px 0;
 }
 
 h6 {
   font-size: 1rem;
-  line-height: 100%;
+  line-height: 120%;
+  margin: 16px 0;
 }
 
 .button {
@@ -29057,7 +29102,7 @@ h6 {
 }
 
 .button-big {
-  padding: 23px 45px;
+  padding: 22px 44px;
   border-radius: 3px;
   font-weight: 500;
   cursor: pointer;
@@ -29068,7 +29113,7 @@ h6 {
 }
 
 .button-rounded-big {
-  padding: 23px 45px;
+  padding: 22px 44px;
   border-radius: 50px;
   font-weight: 500;
   cursor: pointer;
